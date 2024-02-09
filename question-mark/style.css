@@ -49,6 +49,4 @@ body{
 .cover .img-container {
     width: 300px;
     height: 400px;
-    position: relative;
-    transform-origin: left;
 }
