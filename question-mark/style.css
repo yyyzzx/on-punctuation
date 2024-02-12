@@ -54,4 +54,5 @@ body{
 .cover img {
     width: 390px;
     height: 560px;
+    user-select: none;
 }
