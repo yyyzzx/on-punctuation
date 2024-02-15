@@ -134,12 +134,12 @@ h2 {
     margin-bottom: 8px;
 }
 
-table, .content {
+table, .content, .table-container {
     width: 390px;
     height: 560px;
 }
 
-table, tr {
+table, tr, th {
     border: blue 1px solid;
 }
 
