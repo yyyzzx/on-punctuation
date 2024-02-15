@@ -1,8 +1,12 @@
 @font-face {
     font-family: Bianzhidai;
-    src: url(bianzhidai-Base.otf);
+    src: url(fonts/bianzhidai-Base.otf);
 }
 
+@font-face {
+    font-family: Ayuthaya;
+    src: url(fonts/Ayuthaya.ttf);
+}
 
 body{
     margin: 0;
@@ -101,14 +105,15 @@ h1 {
 }
 
 p {
-    font-size: 7.5pt;
-    line-height: 14pt;
+    font-size: 7pt;
+    line-height: 12pt;
     padding: 0 28px;
     color: firebrick;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Ayuthaya", sans-serif;
     font-style: normal;
     text-align: left;
     user-select: none;
+    word-spacing: 0.2px;
 }
 
 span {
