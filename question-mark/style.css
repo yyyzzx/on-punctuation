@@ -134,7 +134,7 @@ h2 {
     margin-bottom: 8px;
 }
 
-table {
+table, .content {
     width: 390px;
     height: 560px;
 }
