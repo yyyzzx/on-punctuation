@@ -140,7 +140,7 @@ table {
 }
 
 table, tr {
-    border: blue 0px solid;
+    border: blue 1px solid;
 }
 
 tr:first-child {
