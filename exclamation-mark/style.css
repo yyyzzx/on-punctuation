@@ -11,7 +11,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: antiquewhite;
+    background-color: blanchedalmond;
 }
 
 .cover{
@@ -20,7 +20,7 @@ body{
     left: 50%;
     width: 390px;
     height: 560px;
-    background-color: wheat;
+    background-color: oldlace;
     transform-style: preserve-3d;
     transform: translate(-50%,-50%) perspective(2000px);
     box-shadow: inset 300px 0 50px rgba(0, 0, 0, 0.1), 0 20px 100px rgba(0, 0, 0, 0.4);
