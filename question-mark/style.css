@@ -24,7 +24,7 @@ body{
 }
 
 .cover:hover {
-    transform: translate(-50%,-50%) perspective(2000px) rotate(-10deg);
+    transform: translate(-50%,-50%) perspective(2000px) rotate(-8deg);
     box-shadow: inset 20px 0 50px rgba(0, 0, 0, 0.1), 0 10px 100px rgba(0, 0, 0, 0.4);
 }
 
@@ -74,7 +74,7 @@ body{
 
 .cover:hover {
     left: 59%;
-    top: 47%;
+    top: 45%;
     transition: 2s;
 }
 
@@ -85,8 +85,6 @@ body{
     box-sizing: border-box;
     z-index: -1;
 }
-
-
 
 h1 {
     text-align: center;
