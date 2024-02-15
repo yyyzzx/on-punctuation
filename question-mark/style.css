@@ -86,10 +86,7 @@ body{
     z-index: -1;
 }
 
-.content {
-    width: 390px;
-    height: 560px;
-}
+
 
 h1 {
     text-align: center;
@@ -97,7 +94,7 @@ h1 {
     font-family: "Bianzhidai";
     font-size: 30pt;
     line-height: 30pt;
-    padding: 25px 0;
+    padding: 20px 0;
 }
 
 .text {
@@ -135,4 +132,25 @@ h2 {
     font-size: 30pt;
     line-height: 30pt;
     margin-bottom: 8px;
+}
+
+table {
+    width: 390px;
+    height: 560px;
+}
+
+table, tr {
+    border: blue 0px solid;
+}
+
+tr:first-child {
+    height: 130px;
+}
+
+tr:nth-child(2) {
+    height: 362px
+}
+
+tr:last-child {
+    height: 68px;
 }
