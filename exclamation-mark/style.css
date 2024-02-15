@@ -20,7 +20,7 @@ body{
     left: 50%;
     width: 390px;
     height: 560px;
-    background-color: oldlace;
+    background-color: wheat;
     transform-style: preserve-3d;
     transform: translate(-50%,-50%) perspective(2000px);
     box-shadow: inset 300px 0 50px rgba(0, 0, 0, 0.1), 0 20px 100px rgba(0, 0, 0, 0.4);
@@ -39,7 +39,7 @@ body{
     left: 0;
     width: 100%;
     height: 7px;
-    background-color: firebrick;
+    background-color: #ea991b;
     transform-origin: bottom;
     transform: skewX(-45deg);
 }
@@ -51,7 +51,7 @@ body{
     right: -7px;
     width: 7px;
     height: 100%;
-    background-color: rgb(178, 34, 34, 0.5);
+    background-color: rgb(234, 153, 27, 0.5);
     transform-origin: left;
     transform: skewY(-45deg);
 }
@@ -92,7 +92,7 @@ body{
 
 h1 {
     text-align: center;
-    color: firebrick;
+    color: #ea991b;
     font-family: "Bianzhidai";
     font-size: 30pt;
     line-height: 30pt;
@@ -108,7 +108,7 @@ p {
     font-size: 7pt;
     line-height: 12pt;
     padding: 0 28px;
-    color: firebrick;
+    color: #ea991b;
     font-family: "Ayuthaya", sans-serif;
     font-style: normal;
     text-align: left;
@@ -130,7 +130,7 @@ span:hover {
 
 h2 {
     text-align: center;
-    color: firebrick;
+    color: #ea991b;
     font-family: "Bianzhidai";
     font-size: 30pt;
     line-height: 30pt;
