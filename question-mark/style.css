@@ -91,20 +91,13 @@ body{
     height: 560px;
 }
 
-.title {
-    height: 132px;
-    width: 390px;
-    align-items: center;
-    vertical-align: middle;
-}
-
 h1 {
     text-align: center;
     color: firebrick;
     font-family: "Bianzhidai";
     font-size: 30pt;
     line-height: 30pt;
-    padding-top: 21px;
+    padding: 25px 0;
 }
 
 .text {
