@@ -156,7 +156,7 @@ tr:nth-child(2) {
 }
 
 .scroll {
-    height: 350px;
+    height: 300px;
     width: 390px;
     overflow-y: scroll;
 }
