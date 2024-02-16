@@ -134,7 +134,7 @@ h2 {
     color: firebrick;
     font-family: "Bianzhidai";
     font-size: 30pt;
-    line-height: 130pt;
+    line-height: 30pt;
     margin-bottom: 8px;
 }
 
@@ -144,7 +144,7 @@ table, .content, .table-container {
 }
 
 table, tr, th {
-    border: blue 1px solid;
+    border: blue 0px solid;
 }
 
 tr:first-child {
@@ -152,16 +152,15 @@ tr:first-child {
 }
 
 tr:nth-child(2) {
-    height: 300px;
-}
-
-tr:last-child {
-    height: 30px;
+    height: 362px;
 }
 
 .scroll {
-    height: 300px;
+    height: 350px;
     width: 390px;
     overflow-y: scroll;
 }
 
+tr:last-child {
+    height: 68px;
+}
