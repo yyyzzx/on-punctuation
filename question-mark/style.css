@@ -135,7 +135,7 @@ h2 {
     font-family: "Bianzhidai";
     font-size: 30pt;
     line-height: 30pt;
-    margin-bottom: 8px;
+    margin-top: 6px;
 }
 
 table, .content, .table-container {
@@ -152,7 +152,7 @@ tr:first-child {
 }
 
 tr:nth-child(2) {
-    height: 362px;
+    height: 360px;
 }
 
 .scroll {
@@ -162,5 +162,6 @@ tr:nth-child(2) {
 }
 
 tr:last-child {
-    height: 68px;
+    height: 70px;
+    vertical-align: middle;
 }
