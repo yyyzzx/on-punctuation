@@ -12,7 +12,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: antiquewhite;
+    background-color: #e9f3e2;
 }
 
 .cover{
@@ -40,7 +40,7 @@ body{
     left: 0;
     width: 100%;
     height: 7px;
-    background-color: firebrick;
+    background-color: #3d6c60;
     transform-origin: bottom;
     transform: skewX(-45deg);
 }
@@ -52,7 +52,7 @@ body{
     right: -7px;
     width: 7px;
     height: 100%;
-    background-color: rgb(178, 34, 34, 0.5);
+    background-color: rgb(61, 108, 96, 0.5);
     transform-origin: left;
     transform: skewY(-45deg);
 }
@@ -93,11 +93,11 @@ body{
 
 h1 {
     text-align: center;
-    color: firebrick;
+    color: #3d6c60;
     font-family: "Bianzhidai";
     font-size: 30pt;
     line-height: 30pt;
-    padding: 20px 0;
+    padding: 45px 0;
 }
 
 .text {
@@ -109,7 +109,7 @@ p {
     font-size: 7.5pt;
     line-height: 12pt;
     padding: 0 28px;
-    color: firebrick;
+    color: #3d6c60;
     font-family: "Ayuthaya", sans-serif;
     font-style: normal;
     text-align: left;
@@ -131,7 +131,7 @@ span:hover {
 
 h2 {
     text-align: center;
-    color: firebrick;
+    color: #3d6c60;
     font-family: "Bianzhidai";
     font-size: 30pt;
     line-height: 30pt;
