@@ -96,7 +96,7 @@ h1 {
     font-family: "Bianzhidai";
     font-size: 30pt;
     line-height: 30pt;
-    padding: 20px 0;
+    padding: 45px 0;
 }
 
 .text {
@@ -105,7 +105,7 @@ h1 {
 }
 
 p {
-    font-size: 7pt;
+    font-size: 7.5pt;
     line-height: 12pt;
     padding: 0 28px;
     color: #ea991b;
@@ -151,9 +151,10 @@ tr:first-child {
 }
 
 tr:nth-child(2) {
-    height: 362px
+    height: 360px;
 }
 
 tr:last-child {
-    height: 68px;
+    height: 70px;
+    vertical-align: middle;
 }
