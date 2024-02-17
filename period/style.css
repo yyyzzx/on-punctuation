@@ -129,22 +129,6 @@ span:hover {
     transition: 1s;
 }
 
-.next-page {
-    font-size: 12pt;
-    line-height: 12pt;
-    padding: 0 28px;
-    color: #188f71;
-    font-family: "Ayuthaya", sans-serif;
-    font-style: normal;
-    text-align: right;
-    user-select: none;
-    word-spacing: 0.2px;
-}
-
-.next-page a{
-    transition: 1s;
-}
-
 .next-page a:hover{
     font-size: 18pt;
     transition: 1s;
@@ -180,6 +164,7 @@ tr:nth-child(2) {
     height: 350px;
     width: 390px;
     overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 tr:last-child {
@@ -233,3 +218,27 @@ tr:last-child {
     justify-content: space-between;
     border: 0px solid black;
 }
+
+.page-turn {
+    display: inline-flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 334px;
+    margin-left: 28px;
+}
+
+.arrow {
+    font-size: 12pt;
+    line-height: 12pt;
+    color: #188f71;
+    font-family: "Ayuthaya", sans-serif;
+    font-style: normal;
+    text-align: right;
+    user-select: none;
+    word-spacing: 0.2px;
+}
+
+.arrow a{
+    transition: 1s;
+}
+
