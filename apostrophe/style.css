@@ -128,27 +128,6 @@ span:hover {
     transition: 1s;
 }
 
-.next-page {
-    font-size: 12pt;
-    line-height: 12pt;
-    padding: 0 28px;
-    color: #ea991b;
-    font-family: "Ayuthaya", sans-serif;
-    font-style: normal;
-    text-align: right;
-    user-select: none;
-    word-spacing: 0.2px;
-}
-
-.next-page a{
-    transition: 1s;
-}
-
-.next-page a:hover{
-    font-size: 18pt;
-    transition: 1s;
-}
-
 h2 {
     text-align: center;
     color: #ea991b;
@@ -225,4 +204,32 @@ tr:last-child {
     flex-direction: column;
     justify-content: space-between;
     border: 0px solid black;
+}
+
+.page-turn {
+    display: inline-flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 334px;
+    margin-left: 28px;
+}
+
+.arrow {
+    font-size: 12pt;
+    line-height: 12pt;
+    color: #ea991b;
+    font-family: "Ayuthaya", sans-serif;
+    font-style: normal;
+    text-align: right;
+    user-select: none;
+    word-spacing: 0.2px;
+}
+
+.arrow a{
+    transition: 1s;
+}
+
+.arrow a:hover{
+    font-size: 18pt;
+    transition: 1s;
 }
