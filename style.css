@@ -139,16 +139,22 @@ p {
     transition: 1s;
 }
 
-span {
+.cover span {
     font-family: "Bianzhidai";
     font-size: 9pt;
     transition: 1s;
 }
 
-span:hover {
+.cover span:hover {
     font-size: 30pt;
     line-height: 30pt;
     transition: 1s;
+}
+
+
+details span {
+    font-family: "Bianzhidai";
+    font-size: 10pt;
 }
 
 h2 {
