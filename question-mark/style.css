@@ -118,7 +118,7 @@ p {
 }
 
 .next-page {
-    font-size: 18pt;
+    font-size: 12pt;
     line-height: 12pt;
     padding: 0 28px;
     color: firebrick;
@@ -129,8 +129,12 @@ p {
     word-spacing: 0.2px;
 }
 
+.next-page a{
+    padding: 0 5px;
+}
+
 .next-page a:hover{
-    font-family: "Bianzhidai";
+    border: 1px dotted firebrick;
 }
 
 span {
@@ -194,11 +198,11 @@ tr:last-child {
 }
 
 .current {
-    box-shadow: 0.5vh 0.5vh firebrick;
+    box-shadow: 0.5vh -0.5vh firebrick;
 }
 
 .button:hover {
-    box-shadow: 0.5vh 0.5vh firebrick;
+    box-shadow: 0.5vh -0.5vh firebrick;
 }
 
 .button img {
