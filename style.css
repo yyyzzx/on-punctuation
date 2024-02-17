@@ -12,7 +12,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: antiquewhite;
+    background-color: #d4cec8;
 }
 
 .cover{
@@ -40,7 +40,7 @@ body{
     left: 0;
     width: 100%;
     height: 7px;
-    background-color: firebrick;
+    background-color: #3c2e2b;
     transform-origin: bottom;
     transform: skewX(-45deg);
 }
@@ -52,7 +52,7 @@ body{
     right: -7px;
     width: 7px;
     height: 100%;
-    background-color: rgb(178, 34, 34, 0.5);
+    background-color: rgb(60, 46, 43, 0.5);
     transform-origin: left;
     transform: skewY(-45deg);
 }
@@ -93,11 +93,12 @@ body{
 
 h1 {
     text-align: center;
-    color: firebrick;
+    color: #3c2e2b;
     font-family: "Bianzhidai";
     font-size: 30pt;
     line-height: 30pt;
     padding: 20px 0;
+    padding: 45px 0;
 }
 
 .text {
@@ -109,7 +110,7 @@ p {
     font-size: 7.5pt;
     line-height: 12pt;
     padding: 0 28px;
-    color: firebrick;
+    color: #3c2e2b;
     font-family: "Ayuthaya", sans-serif;
     font-style: normal;
     text-align: left;
@@ -121,7 +122,7 @@ p {
     font-size: 12pt;
     line-height: 12pt;
     padding: 0 28px;
-    color: firebrick;
+    color: #3c2e2b;
     font-family: "Ayuthaya", sans-serif;
     font-style: normal;
     text-align: right;
@@ -152,7 +153,7 @@ span:hover {
 
 h2 {
     text-align: center;
-    color: firebrick;
+    color: #3c2e2b;
     font-family: "Bianzhidai";
     font-size: 30pt;
     line-height: 30pt;
@@ -187,23 +188,18 @@ tr:last-child {
     vertical-align: middle;
 }
 
-.button,
-.current {
+.button {
     width: 10vh;
     height: 10vh;
     position: relative;
     left: calc(5vw - 5vh);
     align-items: center;
-    border: 2.5px dotted firebrick;
+    border: 2.5px dotted #3c2e2b;
     background-color: oldlace;
 }
 
-.current {
-    box-shadow: 0.5vh -0.5vh firebrick;
-}
-
 .button:hover {
-    box-shadow: 0.5vh -0.5vh firebrick;
+    box-shadow: 0.5vh -0.5vh #3c2e2b;
 }
 
 .button img {
@@ -232,4 +228,22 @@ tr:last-child {
     flex-direction: column;
     justify-content: space-between;
     border: 0px solid black;
+}
+
+details > summary {
+    list-style-type: none;
+}
+
+details > summary::-webkit-details-marker {
+    display: none;
+}
+
+.about {
+}
+
+details p{
+    top: 12vh;
+    left: 0.5vw;
+    width: 30vw;
+    position: absolute;
 }
