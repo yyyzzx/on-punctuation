@@ -129,11 +129,6 @@ span:hover {
     transition: 1s;
 }
 
-.next-page a:hover{
-    font-size: 18pt;
-    transition: 1s;
-}
-
 h2 {
     text-align: center;
     color: #188f71;
@@ -242,3 +237,7 @@ tr:last-child {
     transition: 1s;
 }
 
+.arrow a:hover{
+    font-size: 18pt;
+    transition: 1s;
+}
