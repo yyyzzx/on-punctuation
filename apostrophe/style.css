@@ -128,6 +128,27 @@ span:hover {
     transition: 1s;
 }
 
+.next-page {
+    font-size: 12pt;
+    line-height: 12pt;
+    padding: 0 28px;
+    color: #ea991b;
+    font-family: "Ayuthaya", sans-serif;
+    font-style: normal;
+    text-align: right;
+    user-select: none;
+    word-spacing: 0.2px;
+}
+
+.next-page a{
+    transition: 1s;
+}
+
+.next-page a:hover{
+    font-size: 18pt;
+    transition: 1s;
+}
+
 h2 {
     text-align: center;
     color: #ea991b;
@@ -157,4 +178,51 @@ tr:nth-child(2) {
 tr:last-child {
     height: 70px;
     vertical-align: middle;
+}
+
+.button,
+.current {
+    width: 10vh;
+    height: 10vh;
+    position: relative;
+    left: calc(5vw - 5vh);
+    align-items: center;
+    border: 2.5px dotted #ea991b;
+    background-color: oldlace;
+}
+
+.current {
+    box-shadow: 0.5vh -0.5vh #ea991b;
+}
+
+.button:hover {
+    box-shadow: 0.5vh -0.5vh #ea991b;
+}
+
+.button img {
+    height: 10vh;
+}
+
+.close {
+    top: calc(50vh - 44vh);
+    left: 0vw;
+    width: 10vw;
+    height: 88vh;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 0px solid black;
+}
+
+.nav {
+    top: calc(50vh - 44vh);
+    left: calc(90vw - 0.5vh);
+    width: 10vw;
+    height: 88vh;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 0px solid black;
 }
