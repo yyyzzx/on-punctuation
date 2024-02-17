@@ -230,3 +230,11 @@ tr:last-child {
     justify-content: space-between;
     border: 0px solid black;
 }
+
+details > summary {
+    list-style-type: none;
+}
+
+details > summary::-webkit-details-marker {
+    display: none;
+}
