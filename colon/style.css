@@ -165,3 +165,78 @@ tr:last-child {
     height: 70px;
     vertical-align: middle;
 }
+
+.button,
+.current {
+    width: 10vh;
+    height: 10vh;
+    position: relative;
+    left: calc(5vw - 5vh);
+    align-items: center;
+    border: 2.5px dotted #7f5ba8;
+    background-color: oldlace;
+}
+
+.current {
+    box-shadow: 0.5vh -0.5vh #7f5ba8;
+}
+
+.button:hover {
+    box-shadow: 0.5vh -0.5vh #7f5ba8;
+}
+
+.button img {
+    height: 10vh;
+}
+
+.close {
+    top: calc(50vh - 44vh);
+    left: 0vw;
+    width: 10vw;
+    height: 88vh;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 0px solid black;
+}
+
+.nav {
+    top: calc(50vh - 44vh);
+    left: calc(90vw - 0.5vh);
+    width: 10vw;
+    height: 88vh;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 0px solid black;
+}
+
+.page-turn {
+    display: inline-flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 334px;
+    margin-left: 28px;
+}
+
+.arrow {
+    font-size: 12pt;
+    line-height: 12pt;
+    color: #7f5ba8;
+    font-family: "Ayuthaya", sans-serif;
+    font-style: normal;
+    text-align: right;
+    user-select: none;
+    word-spacing: 0.2px;
+}
+
+.arrow a{
+    transition: 1s;
+}
+
+.arrow a:hover{
+    font-size: 18pt;
+    transition: 1s;
+}
