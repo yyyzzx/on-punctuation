@@ -127,14 +127,12 @@ p {
     text-align: right;
     user-select: none;
     word-spacing: 0.2px;
-}
-
-.next-page a{
-    padding: 0 5px;
+    transition: 1s;
 }
 
 .next-page a:hover{
-    border: 1px dotted firebrick;
+    font-size: 18pt;
+    transition: 1s;
 }
 
 span {
