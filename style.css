@@ -139,19 +139,6 @@ p {
     transition: 1s;
 }
 
-.cover span {
-    font-family: "Bianzhidai";
-    font-size: 9pt;
-    transition: 1s;
-}
-
-.cover span:hover {
-    font-size: 30pt;
-    line-height: 30pt;
-    transition: 1s;
-}
-
-
 details span {
     font-family: "Bianzhidai";
     font-size: 10pt;
@@ -186,7 +173,9 @@ tr:nth-child(2) {
 .scroll {
     height: 350px;
     width: 390px;
-    overflow-y: scroll;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 tr:last-child {
@@ -210,6 +199,21 @@ tr:last-child {
 
 .button img {
     height: 10vh;
+}
+
+#question-mark {
+    background-image: url('images/question.jpg');
+    background-repeat: no-repeat;
+    height: 10vh;
+    width: 10vh;
+    background-size: cover;
+}
+
+#question-mark:hover {
+    background-image: url('question-mark/images/favicon.jpg');
+    background-repeat: no-repeat;
+    height: 10vh;
+    width: 10vh;
 }
 
 .close {
@@ -244,12 +248,92 @@ details > summary::-webkit-details-marker {
     display: none;
 }
 
-.about {
-}
-
 details p{
     top: 12vh;
     left: 0.5vw;
     width: 30vw;
     position: absolute;
+}
+
+.list ul {
+    font-family: "Bianzhidai";
+    font-size: 12pt;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.list li {
+    margin-bottom: 39px;
+    line-height: 10pt;
+    transition: 0.8s;
+    display: inline;
+}
+
+.list li:hover {
+    font-size: 28pt;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+.number {
+    color: oldlace;
+    opacity: 0;
+    font-family: "Ayuthaya", sans-serif;
+    font-size: 3pt;
+}
+
+.list li:hover .number {
+    line-height: 9pt;
+    font-family: "Ayuthaya", sans-serif;
+    font-size: 9pt;
+    position: relative;
+    color: #3c2e2b;
+    opacity: 1;
+}
+
+.list li:nth-child(1):hover {
+    color: firebrick;
+}
+
+.list li:nth-child(1):hover .number{
+    color: firebrick;
+    transition: 0.5s;
+}
+
+.list li:nth-child(2):hover {
+    color: #ea991b;
+}
+
+.list li:nth-child(2):hover .number{
+    color: #ea991b;
+    transition: 0.5s;
+}
+
+.list li:nth-child(3):hover {
+    color: #188f71;
+}
+
+.list li:nth-child(3):hover .number{
+    color: #188f71;
+    transition: 0.5s;
+}
+
+.list li:nth-child(4):hover {
+    color: #7f5ba8;
+}
+
+.list li:nth-child(4):hover .number{
+    color: #7f5ba8;
+    transition: 0.5s;
+}
+
+.list li:nth-child(5):hover {
+    color: #213a68;
+}
+
+.list li:nth-child(5):hover .number{
+    color: #213a68;
+    transition: 0.5s;
 }
