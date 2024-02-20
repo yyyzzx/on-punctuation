@@ -183,14 +183,25 @@ tr:last-child {
     vertical-align: middle;
 }
 
-.button {
+.button,
+.button-red,
+.button-yellow {
     width: 10vh;
     height: 10vh;
     position: relative;
     left: calc(5vw - 5vh);
     align-items: center;
-    border: 2.5px dotted #3c2e2b;
     background-color: oldlace;
+}
+
+.button,
+.button-red,
+.button-yellow,
+.button-green,
+.button-purple,
+.button-blue {
+    border: 2.5px dotted #3c2e2b;
+    
 }
 
 .button:hover {
@@ -201,19 +212,42 @@ tr:last-child {
     height: 10vh;
 }
 
+/* Question Mark - RED */
 #question-mark {
     background-image: url('images/question.jpg');
     background-repeat: no-repeat;
-    height: 10vh;
-    width: 10vh;
-    background-size: cover;
+    background-position: center;
+    height: calc(10vh - 5px);
+    width: calc(10vh - 5px);
+    background-size: contain;
 }
 
 #question-mark:hover {
     background-image: url('question-mark/images/favicon.jpg');
+}
+
+.button-red:hover {
+    box-shadow: 0.5vh -0.5vh firebrick;
+    border: 2.5px dotted firebrick;
+}
+
+/* Apostrophe - YELLOW */
+#apostrophe {
+    background-image: url('images/apostrophe.jpg');
     background-repeat: no-repeat;
-    height: 10vh;
-    width: 10vh;
+    background-position: center;
+    height: calc(10vh - 5px);
+    width: calc(10vh - 5px);
+    background-size: contain;
+}
+
+#apostrophe:hover {
+    background-image: url('apostrophe/images/favicon.jpg');
+}
+
+.button-yellow:hover {
+    box-shadow: 0.5vh -0.5vh #ea991b;
+    border: 2.5px dotted #ea991b;
 }
 
 .close {
