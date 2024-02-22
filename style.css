@@ -185,23 +185,17 @@ tr:last-child {
 
 .button,
 .button-red,
-.button-yellow {
+.button-yellow,
+.button-green,
+.button-purple,
+.button-blue {
     width: 10vh;
     height: 10vh;
     position: relative;
     left: calc(5vw - 5vh);
     align-items: center;
     background-color: oldlace;
-}
-
-.button,
-.button-red,
-.button-yellow,
-.button-green,
-.button-purple,
-.button-blue {
     border: 2.5px dotted #3c2e2b;
-    
 }
 
 .button:hover {
@@ -248,6 +242,63 @@ tr:last-child {
 .button-yellow:hover {
     box-shadow: 0.5vh -0.5vh #ea991b;
     border: 2.5px dotted #ea991b;
+}
+
+/* Apostrophe - GREEN */
+#period {
+    background-image: url('images/period.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: calc(10vh - 5px);
+    width: calc(10vh - 5px);
+    background-size: contain;
+}
+
+#period:hover {
+    background-image: url('period/images/favicon.jpg');
+}
+
+.button-green:hover {
+    box-shadow: 0.5vh -0.5vh #188f71;
+    border: 2.5px dotted #188f71;
+}
+
+/* Colon - PURPLE */
+#colon {
+    background-image: url('images/colon.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: calc(10vh - 5px);
+    width: calc(10vh - 5px);
+    background-size: contain;
+}
+
+#colon:hover {
+    background-image: url('colon/images/favicon.jpg');
+}
+
+.button-purple:hover {
+    box-shadow: 0.5vh -0.5vh #7f5ba8;
+    border: 2.5px dotted #7f5ba8;
+}
+
+/* Comma - BLUE */
+#comma {
+    background-image: url('images/comma.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: calc(10vh - 5px);
+    width: calc(10vh - 5px);
+    background-size: contain;
+}
+
+#comma:hover {
+    background-image: url('comma/images/favicon.jpg');
+}
+
+.button-blue:hover {
+    box-shadow: 0.5vh -0.5vh #213a68;
+    border: 2.5px dotted #213a68;
 }
 
 .close {
